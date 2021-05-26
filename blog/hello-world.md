@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/blog.njk
 tags: blog
 title: Hello World
 date: 2021-05-26T19:44:00.439Z
