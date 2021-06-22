@@ -14,4 +14,4 @@ eleventyNavigation:
 </br>
 <p>The long term goal is to move careers into a full-time development role. I would love to complete an apprenticeship so this is my next goal to work towards.</p>
 </br>
-<p>Get in touch using the <a href="posts/firstpost.md">contact me</a> form<p>
+<p>Get in touch using the <a href="../posts/firstpost">contact me</a> form<p>
