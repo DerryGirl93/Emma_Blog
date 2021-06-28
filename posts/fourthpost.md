@@ -7,7 +7,17 @@ layout: layouts/post.njk
 ---
 
 <h3>About the Lesson</h3>
+Pseudocode is used as a learning & reasoning tool. It helps developers understand a problem and draft solutions. Because we don't have to worry about syntax, standards, language or frameworks it allows us to concentrate on the problem without getting caught up in these details that could slow us down. It allows us to work more efficiently.
 
+There is no syntax for writing Pseudocode. However some rules we can use are:
+
+ <ol>
+ <li>Capitalise key commands eg. IF number >100 THEN do this</li>
+ <li>Write one statement per line</li>
+ <li>Use indentation and spacing</li>
+ <li>Be specific</li>
+ <li>Keep it simple - non techy</li>
+ </ol>
 
 <h3>Tasks</h3>
 <h4>Task One- Fix Start</h4>
@@ -17,15 +27,15 @@ FOR LOOP to cycle through the string characters in the argument, start from the 
 IF string character == first character
 character = "*"
 
-PRINT ba\ *_le _/
- 
+PRINT ba\ \*_le _/
+
 OR
 
 FUNCTION fixStart(inputString)
 VARIABLE firstCharacter = GET FIRST CHARACTER OF inputString
 VARIABLE newString = REMOVE FIRST CHARACTER of inputString
 
-newString = newString REPLACE CHARACTERS WHERE CHARACTER == firstCharacter WITH "\ *"
+newString = newString REPLACE CHARACTERS WHERE CHARACTER == firstCharacter WITH "\ \*"
 RETURN firstCharacter + newString
 
 </p>
