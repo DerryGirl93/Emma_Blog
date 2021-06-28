@@ -1,18 +1,30 @@
 ---
-title: This is my second post.
-description: This is a post on My Blog about leveraging agile frameworks.
-date: 2018-07-04
+title: Introduction to JavaScript
+description:
+date: 2021-06-04
 tags:
-  - number 2
+  - Coders Guild
 layout: layouts/post.njk
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-<h2> Section Header </h2>
+<h3> About the Lesson</h3>
 
-<a href="{{ '/posts/firstpost/' | url }}">First post</a>
-<a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
+<p>Today we learned basic JavaScript programming concepts and how we can use it to make our web pages dynamic. We learned how to write basic JavaScript statements, log JavaScript to the console, and how to write a comment in JavaScript. We also learned how to declare a variable. We can use var, const or let to declare a variable. We also covered data types in JavaScript. These are string, number, boolean, undefined & null. When using the number data type we can use Arithmetic Operators. These are Subtract - , Add + , Multiply * , Divide / and Modulus % </p>
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+<h3>Task</h3>
+<p>The task was to workout what the total bill would be based on adding a tip percentage to the final food bill. Below is my solution coded using JavaScript. This would print out a sentance on the web page saying "The final bill is £60.50 which includes a tip of £5.50".</p>
 
+<p>
+let preTipTotal = 55;
 
+let percentage = 10;
+
+let tipAmount = (percentage / 100) \* preTipTotal;
+
+let finalBill= preTipTotal + tipAmount;
+
+let finalBillToDecimals = finalBill.toFixed(2);
+
+let tipAmountToDecimals = tipAmount.toFixed(2);
+
+document.write(`The final bill is £${finalBillToDecimals} which includes a tip of £${tipAmountInDecimals}`); </p>
