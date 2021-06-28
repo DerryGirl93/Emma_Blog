@@ -3,7 +3,7 @@ title: Get In Touch!
 description: Contact me form
 date: 2021-05-19
 tags:
-  - another tag
+  - Contact
 layout: layouts/post.njk
 ---
 <h1>Contact Me</h1>

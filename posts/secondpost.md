@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 ---
 
-<h3> About the Lesson</h3>
+<h3>About the Lesson</h3>
 
 <p>Today we learned basic JavaScript programming concepts and how we can use it to make our web pages dynamic. We learned how to write basic JavaScript statements, log JavaScript to the console, and how to write a comment in JavaScript. We also learned how to declare a variable. We can use var, const or let to declare a variable. We also covered data types in JavaScript. These are string, number, boolean, undefined & null. When using the number data type we can use Arithmetic Operators. These are Subtract - , Add + , Multiply * , Divide / and Modulus % </p>
 
@@ -27,4 +27,6 @@ let finalBillToDecimals = finalBill.toFixed(2);
 
 let tipAmountToDecimals = tipAmount.toFixed(2);
 
-document.write(`The final bill is £${finalBillToDecimals} which includes a tip of £${tipAmountInDecimals}`); </p>
+document.write(`The final bill is £${finalBillToDecimals} which includes a tip of £${tipAmountInDecimals}`);
+
+</p>
